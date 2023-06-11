@@ -11,5 +11,6 @@ create project with dependencies for TS
 https://www.typescriptlang.org/docs/handbook/react.html (TS docs)
 $ npx create-react-app my-app --template typescript
 
-After project succesfully created
+Run
+from project directory
 $ npm start dev
