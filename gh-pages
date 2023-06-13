@@ -1,0 +1,31 @@
+Deploy React App to Github pages
+
+React project directory - install gh-pages:
+$ npm i gh-pages
+OR
+$ npm install gh-pages --save-dev
+
+
+Add in the beggining of the package.json:
+"homepage": https://<git_username>.github.io/<project_name>
+
+Add under the "scripts" for the same package.json:
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  
+  Push everything to the git:
+  $ git commit -am "say something"
+  $ git push
+  
+  React project directory- deploy:
+  $ npm run deploy
+  
+  Results:
+  After running deploy command you should see "Published"
+  From now on your project will be live all the time on github pages
