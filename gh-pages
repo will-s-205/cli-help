@@ -5,7 +5,6 @@ $ npm i gh-pages
 OR
 $ npm install gh-pages --save-dev
 
-
 Add in the beggining of the package.json:
 "homepage": https://<git_username>.github.io/<project_name>
 
@@ -19,13 +18,13 @@ Add under the "scripts" for the same package.json:
     "deploy": "gh-pages -d build"
   },
   
-  Push everything to the git:
-  $ git commit -am "say something"
-  $ git push
+Push everything to the git:
+$ git commit -am "say something"
+$ git push
   
-  React project directory- deploy:
-  $ npm run deploy
+React project directory- deploy:
+$ npm run deploy
   
-  Results:
-  After running deploy command you should see "Published"
-  From now on your project will be live all the time on github pages
+Results:
+After running deploy command you should see "Published"
+From now on your project will be live all the time on github pages
