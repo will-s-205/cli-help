@@ -1,7 +1,24 @@
 Install npm and node.js:
 https://nodejs.org/en
 
-React and TS
+TS stanalone
+install into project
+$ npm i -g typescript
+$ tsc -v
+use compiler to get JS file
+$ tsc index.ts
+create config file (TS will automaticall read it each time you run tsc)
+$ touch tsconfig.json
+add to tsconfig.json:
+{
+  "compilerOption": {
+    "target": "esnext", // target to the lates ES6
+    "watch": true, // run tsc every time file saved
+    "lib": ["dom", "es2017"] allow to run tsc with older version of dom classes
+  }
+}
+
+React.js and TS
 create project with dependencies for TS
 https://www.typescriptlang.org/docs/handbook/react.html (TS docs)
 $ npx create-react-app my-app --template typescript
