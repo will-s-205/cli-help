@@ -19,7 +19,7 @@ Add under the "scripts" for the same package.json:
   },
   
 Push everything to the git:
-$ git commit -am "say something"
+$ git commit -am "gh-pages support"
 $ git push
   
 React project directory- deploy:
