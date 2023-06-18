@@ -28,3 +28,8 @@ $ npm run deploy
 Results:
 After running deploy command you should see "Published"
 From now on your project will be live all the time on github pages
+
+IMPORTANT:
+got to your project on Github => Settings => Pages
+hit a checkbox for "Enforce HTTPS"
+requiered to avoid security check that could prevent visitors from landing on a webpage
