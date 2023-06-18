@@ -14,6 +14,7 @@ add to tsconfig.json:
   "compilerOption": {
     "target": "esnext", // target to the lates ES6
     "watch": true, // run tsc every time file saved
+// watch might work in some cases in a run time only. watch use example: "$ sass --watch style.scss style.css"
     "lib": ["dom", "es2017"] allow to run tsc with older version of dom classes
   }
 }
