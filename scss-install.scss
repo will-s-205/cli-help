@@ -1,0 +1,6 @@
+// installation globally so no need to install it every time
+$ npm install -g scss
+
+// setup
+change your file.css to file.scss
+make sure to change import path for components and file that depends on import
