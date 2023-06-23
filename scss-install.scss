@@ -1,6 +1,12 @@
 // installation globally so no need to install it every time
 $ npm i -D sass node-sass
+// add flag in case of conflicts
+--legacy-peer-deps
 
 // setup
 copy your file.css to file.scss
-make sure to change import path for components and file that depends on import
+and make sure to change import path for components and file that depends on import 
+// from
+import './App.css';
+// to
+import './App.scss';
