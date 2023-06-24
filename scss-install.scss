@@ -1,6 +1,8 @@
 // installation globally so no need to install it every time
 $ npm i -D sass node-sass
 // add flag in case of conflicts
+--save-dev
+// OR
 --legacy-peer-deps
 
 // setup
