@@ -88,13 +88,7 @@ hit a checkbox for "Enforce HTTPS"
 
 requiered to avoid security check that could prevent visitors from landing on a webpage
 ## Last step:
-Make sure to create a branch on git to contrain all initial changes
-```
-git commit -am "Project ready"
-```
-```
-git push
-```
+Make sure to create a branch on git to contrain all initial changes `Project ready`
 ## Useful info:
 - [GIT Basic writing syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 - [Vulnerabilities after running NPM Install](https://www.voitanos.io/blog/don-t-be-alarmed-by-vulnerabilities-after-running-npm-install/)
