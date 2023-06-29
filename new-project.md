@@ -1,14 +1,16 @@
 
-# Create new project instructions
-Instructions below is a usual flow that I follow on the daily basis. Stack consist of:
+# [Create new project instructions](https://github.com/will-s-205/cli-helper)
+Instructions below are the usual CLI flow that I follow on a daily basis. Stack consist of:
 - React
 - Typescript
 - SASS
 
-## React TS
+## [React TS](https://create-react-app.dev/docs/adding-typescript/)
 `npx create-react-app <my-app-name> --template typescript`
 
-## SASS
+Don't forget to change directory after this `cd <my-app-name>` 
+
+## [SASS](https://github.com/sass/dart-sass#from-npm)
 `npm install --save-dev sass`
 
 Replaces `index.css` by `index.scss` with code lines below:
@@ -27,7 +29,7 @@ Replaces `index.css` by `index.scss` with code lines below:
   --silver: #c0c0c0;
   --gray: #808080;
 
-  --backgrond: radial-gradient(circle, #d6d6d6 37%, #bbb 71%);
+  --background: radial-gradient(circle, #d6d6d6 37%, #bbb 71%);
 }
 
 * {
@@ -38,6 +40,7 @@ Replaces `index.css` by `index.scss` with code lines below:
 ```
 ## Useful info:
 - [GIT Basic writing syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+- [Vulnerabilities after running NPM Install](https://www.voitanos.io/blog/don-t-be-alarmed-by-vulnerabilities-after-running-npm-install/)
 
 
 
