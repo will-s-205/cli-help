@@ -64,9 +64,8 @@ Add under the "scripts" for the same package.json:
 ```
 In project directory - install `gh-pages`: 
 ```
-npm i gh-pages
+npm install gh-pages --save-dev
 ```
-or `npm install gh-pages --save-dev`
 ### Push everything to the git: 
 But right before that remove or update starting lines of code in new react project like: favicon icon, reportWebVitals(), project name in browser tab, etc
 ```
