@@ -8,7 +8,7 @@ Instructions below are the usual CLI flow that I follow on a daily basis. Stack 
 ```
 npx create-react-app <my-app-name> --template typescript
 ```
-Don't forget to change directory after this `cd <my-app-name>` 
+Don't forget to push it to the GitHub
 
 ## [SASS](https://github.com/sass/dart-sass#from-npm)
 ```
