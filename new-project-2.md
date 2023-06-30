@@ -58,3 +58,7 @@ npm run deploy
 ```
 ### Last step
 Make sure to create a branch on git to contrain all initial changes `Project ready`
+### IMPORTANT:
+got to your project on Github => Settings => Pages
+hit a checkbox for "Enforce HTTPS"
+requiered to avoid security check that could prevent visitors from landing on a webpage
