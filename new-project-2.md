@@ -47,13 +47,7 @@ html {
 ```
 ### Push everything to GitHub
 ```
-git commit -am "gh-pages support"
-```
-```
-git push
-```
-```
-npm run deploy
+git commit -am "gh-pages support" && git push && npm run deploy
 ```
 ### Last step
 Make sure to create a branch on git to contrain all initial changes `Project ready`
