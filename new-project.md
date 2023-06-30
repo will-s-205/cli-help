@@ -10,7 +10,7 @@ Instructions below are the usual CLI flow that I follow on a daily basis. Stack 
 npx create-react-app <my-app-name> --template typescript
 ```
 ```
-npm install @types/dotenv --save-dev
+npm install dotenv @types/dotenv --save-dev
 ```
 Don't forget to push it to the GitHub
 
