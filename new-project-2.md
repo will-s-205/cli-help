@@ -57,4 +57,4 @@ git push
 npm run deploy
 ```
 ### Last step
-Make sure to create a branch on git to contrain all initial changes Project ready
+Make sure to create a branch on git to contrain all initial changes `Project ready`
