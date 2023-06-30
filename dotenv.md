@@ -1,11 +1,11 @@
 ### Install `dotenv`
 ```
-npm install dotenv @types/dotenv --save-dev
+npm install dotenv @types/dotenv
 ```
 
 ### create .env
 ```
-REACT_APP_MONGO_URI=mongodb+srv://???
+REACT_APP_MONGO_URI=mongodb+srv://<username>:<password>@<cluster>.<token>.mongodb.net/<collection>?retryWrites=true&w=majority
 ```
 
 ### specify path to .env
