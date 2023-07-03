@@ -9,9 +9,6 @@ Instructions below are the usual CLI flow that I follow on a daily basis. Stack 
 ```
 npx create-react-app <MY-APP-NAME> --template typescript
 ```
-```
-npm install dotenv
-```
 Don't forget to push it to the GitHub
 
 ## [SASS](https://github.com/sass/dart-sass#from-npm)
