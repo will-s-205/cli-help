@@ -3,6 +3,12 @@
 npm install dotenv
 ```
 
+### Import packages
+```
+const dotenv = require('dotenv');
+const path = require('path');
+```
+
 ### create .env file
 Make sure to keep it in root project
 ```
@@ -21,3 +27,4 @@ const apiUrl = process.env.REACT_APP_API_URL;
 ```
 ### Troubleshooting
 - https://stackoverflow.com/questions/53237293/react-evironment-variables-env-return-undefined
+- https://github.com/will-s-205/login/blob/master/src/server.ts
