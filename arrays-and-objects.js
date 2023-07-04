@@ -1,3 +1,4 @@
+// OBJECT
 let scrimbaUsers = {
     "00": "sindre@scrimba.com",
     "01": "per@scrimba.com",
@@ -11,6 +12,7 @@ let scrimbaUsersEmails = Object.values(scrimbaUsers) // ["sindre@scrimba", "per@
 let scrimbaUsersIDs = Object.keys(scrimbaUsers) // ["00", "01", "02"]
 let scrimbaUsersEntries = Object.entries(scrimbaUsers) // [["00", "sindre@scrimba"], ["01", "per@scrimba"], ["02", "frode@scrimba"]]
 
+// ARRAY
 const array = Object.values(scrimbaUsersEntries)
 array.forEach(function (data) { console.log(data) })
 // OR
