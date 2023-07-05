@@ -17,11 +17,10 @@ npm install --save-dev sass
 ```
 Replaces `index.css` by `index.scss` with code lines below and don't forget change path in `index.tsx` to `import './index.scss';`:
 ```
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;700&family=Inter:wght@400;500&family=Karla:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;700&family=Inter:wght@400;500;700&display=swap');
 
 :root {
-  --typeface-karla: 'Karla', sans-serif;
-  --typeface-inconsolata: 'Inconsolata', monospace;
+  --typeface-inconsolata: 'Inconsolata', sans-serif;
   --typeface-inter: 'Inter', monospace;
 
   --main: #000;
