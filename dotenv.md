@@ -2,7 +2,9 @@
 ```
 npm install dotenv
 ```
-
+```
+npm i path
+```
 ### Import packages
 ```
 const dotenv = require('dotenv');
