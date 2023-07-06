@@ -9,3 +9,6 @@ After that you can access the variable like this process.env.REACT_APP_SOME_VARI
 ### Additional tips
 - No need to wrap your variable value in single or double quotes.
 - Do not put semicolon ; or comma , at the end of each line.
+
+### Troubleshooting
+https://stackoverflow.com/questions/53237293/react-evironment-variables-env-return-undefined
