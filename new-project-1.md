@@ -91,10 +91,4 @@ requiered to avoid security check that could prevent visitors from landing on a 
 Make sure to create a branch on git to contrain all initial changes `Project ready`
 ## Useful info:
 - [GIT Basic writing syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-- [Vulnerabilities after running NPM Install](https://www.voitanos.io/blog/don-t-be-alarmed-by-vulnerabilities-after-running-npm-install/)
-
-
-
-
-
-
+- [Vulnerabilities after running NPM Install](https://www.voitanos.io/blog/don-t-be-alarmed-by-vulnerabilities-after-running-npm-install/) AND [override package-lock.json](https://stackoverflow.com/questions/76538757/how-to-approach-and-fix-npm-security-issues-semver-vulnerable-to-regular-expre)
