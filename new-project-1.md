@@ -2,7 +2,6 @@
 Instructions below are the usual CLI flow that I follow on a daily basis. Stack consist of:
 - React
 - Typescript
-- dotenv
 - SASS
 
 ## [React TS](https://create-react-app.dev/docs/adding-typescript/)
