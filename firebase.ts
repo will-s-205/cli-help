@@ -1,9 +1,7 @@
-### Create user
-```
+
 import { createUserWithEmailAndPassword, sendEmailVerification } from 'firebase/auth';
 import { auth } from '../firebase';
-```
-```
+
         await createUserWithEmailAndPassword(auth, email, password)
             .then(async (userCredential) => {
                 // Signed in
@@ -19,8 +17,6 @@ import { auth } from '../firebase';
                 const errorCode = error.code;
                 const errorMessage = error.message;
                 console.log(errorCode, errorMessage);
-                // ..
             });
 
     }
-```
