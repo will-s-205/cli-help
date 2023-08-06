@@ -67,6 +67,7 @@ async function getPost() {
     // .then((data) => data.json())
     // .then((json) => console.log(2))
     // .catch((error) =>  console.log(e));
+    
     // OR
     try {
         const response = await fetch('https://swapi.dev/api/people/1');
